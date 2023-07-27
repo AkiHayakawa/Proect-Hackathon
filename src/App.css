@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-manrope: Manrope;
+
+  /* font sizes */
+  --font-size-lgi-5: 19.5px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-3xl: 22px;
+  --font-size-7xl: 26px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #1b1c1f;
+  --color-gray-200: #1a1a1a;
+  --color-gray-300: rgba(0, 0, 0, 0.6);
+  --color-black: #000;
+  --color-royalblue: #2b59c3;
+  --color-silver-100: #c3c3c3;
+  --color-silver-200: #c0c0c0;
+  --color-gainsboro: #e0e5ed;
+  --color-slategray: #767e8c;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+}

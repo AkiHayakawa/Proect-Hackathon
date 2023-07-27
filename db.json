@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "password": "191919",
+      "firstName": "1",
+      "surName": "1",
+      "email": "1@gmail.com",
+      "id": 1,
+      "img": "",
+      "experience": "1",
+      "career": "1",
+      "certificateImg": "",
+      "certificateDesc": "1"
+    }
+  ]
+}
