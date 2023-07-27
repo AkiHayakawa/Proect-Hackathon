@@ -6,6 +6,8 @@ import MainRoutes from "./routes";
 import Navbar from "./components/auth/Navbar";
 
 function App() {
+  // новая ветка
+  console.log("prefer");
   return (
     <BrowserRouter>
       <Navbar />
