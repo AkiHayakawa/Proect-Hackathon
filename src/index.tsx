@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import { store } from "./store";
 import "./auth style/style.css";
+import "./firebase";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
