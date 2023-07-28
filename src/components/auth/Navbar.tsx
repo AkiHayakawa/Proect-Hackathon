@@ -3,8 +3,9 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const location = useLocation();
   const userId = localStorage.getItem("registr-id");
+  const location = useLocation();
+
   useEffect(() => {
     if (!userId && location.pathname == "/") {
       navigate("/registr");
