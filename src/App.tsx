@@ -6,7 +6,6 @@ import MainRoutes from "./routes";
 import Navbar from "./components/auth/Navbar";
 
 function App() {
-  console.log("new commit ");
   return (
     <BrowserRouter>
       <Navbar />
