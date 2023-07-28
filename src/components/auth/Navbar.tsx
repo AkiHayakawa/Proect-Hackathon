@@ -3,11 +3,11 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const userId = localStorage.getItem("registr-id");
+  const registrId = localStorage.getItem("registr-id");
   const location = useLocation();
 
   useEffect(() => {
-    if (!userId && location.pathname == "/") {
+    if (!registrId && location.pathname == "/") {
       navigate("/registr");
     }
   }, []);
